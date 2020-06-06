@@ -39,7 +39,7 @@ return [
   'digits_between'       => ':attributeは:min桁から:max桁の間で指定してください。',
   'dimensions'           => ':attributeの図形サイズが正しくありません。',
   'distinct'             => ':attributeには異なった値を指定してください。',
-  'email'                => ':attributeには、有効なメールアドレスを指定しろぼけが！。',
+  'email'                => ':attributeには、有効なメールアドレスを指定してください。',
   'ends_with'            => ':attributeには、:valuesのどれかで終わる値を指定してください。',
   'exists'               => '選択された:attributeは正しくありません。',
   'file'                 => ':attributeにはファイルを指定してください。',
@@ -85,9 +85,9 @@ return [
   'mimes'                => ':attributeには:valuesタイプのファイルを指定してください。',
   'mimetypes'            => ':attributeには:valuesタイプのファイルを指定してください。',
   'min'                  => [
-    'numeric' => ':attributeには、:min以上の数字を指定しろやボケカス。',
+    'numeric' => ':attributeには、:min以上の数字を指定してください。',
     'file'    => ':attributeには、:min kB以上のファイルを指定してください。',
-    'string'  => ':attributeは、:min文字以上で指定できるか？あほ。',
+    'string'  => ':attributeは、:min文字以上で指定してください。',
     'array'   => ':attributeは:min個以上指定してください。',
   ],
   'not_in'               => '選択された:attributeは正しくありません。',
@@ -146,9 +146,9 @@ return [
 */
 
   'attributes' => [
-    'name' => '貴様の名前',
-    'email' => '貴様のアドレス',
-    'password' => '貴様のパスワード'
+    'name' => 'ユーザー名',
+    'email' => 'メールアドレス',
+    'password' => 'パスワード'
   ],
 
 ];

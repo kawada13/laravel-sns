@@ -27,6 +27,9 @@
                   <label for="password">パスワード</label>
                 </div>
                 <input type="hidden" name="remember" id="remember" value="on">
+                <div class="text-left">
+                  <a href="{{ route('password.request') }}" class="card-text">パスワードを忘れた方</a>
+                </div>
                 <button class="btn aqua-gradient btn-block" type="sbmit">ログイン</button>
                 <div class=mt-3>
                   <a href="{{ route('register') }}" class="card-text">ユーザー登録はこちら</a>
