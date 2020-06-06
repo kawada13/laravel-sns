@@ -3,7 +3,7 @@
   <ul class="navbar-nav ml-auto">
     @guest
     <li class="nav-item"><a href="{{ route('register')}}" class="nav-link">ユーザー登録</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">ログイン</a></li>
+    <li class="nav-item"><a href="{{ route('login') }}" class="nav-link">ログイン</a></li>
     @endguest
     @auth
     <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-apple"></i>投稿する</a></li>
